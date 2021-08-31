@@ -77,7 +77,12 @@ body {
     margin: 25px;
     font-size: 14px;
     line-height: 18px;
-    color: rgb(126, 129, 131);
+    color: #A6A6AB;
+}
+
+.welcomename {
+    color: #F5F7FB;
+    font-weight: 600;
 }
 
 .logo {
@@ -102,10 +107,10 @@ body {
 }
 
 .navsection h4{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
-    color: rgb(126, 129, 131);
+    color: #A6A6AB;
 }
 
 .linkcontainer{
@@ -114,7 +119,7 @@ body {
 
 .linkcontainer a{
     position: relative;
-    padding: 14px 15px;
+    padding: 12px 15px;
     font-size: 14px;
     font-weight: 600;
     display: block;
@@ -124,7 +129,11 @@ body {
 }
 
 .linkcontainer a i{
-    color: rgb(126, 129, 131);
+    color: #A6A6AB;
+}
+
+.active {
+    background-color: #0984A3;
 }
 
 .linkcontainer a span{
